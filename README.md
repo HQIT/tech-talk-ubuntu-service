@@ -23,13 +23,11 @@ example for create a new service in Ubuntu desktop 16.04
 $ service simple-service start
 $ ps aux | grep simple-service
 gang      95363  1.7  3.2 1467708 98388 ?       Ssl  21:56   0:05 /usr/share/code/code simple-service.sh
-gang      95669  0.0  0.0  15968   892 pts/4    S+   22:02   0:00 grep --color=auto simple-service
 ```
 1. stop the service
 ```
 $ sudo service simple-service stop
 $ ps aux | grep simple-service
-gang      95717  0.0  0.0  15968  1032 pts/4    S+   22:04   0:00 grep --color=auto simple-service
 ```
 
 ## others
